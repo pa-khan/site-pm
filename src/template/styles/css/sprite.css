@@ -1,0 +1,47 @@
+.icon-chevron-left-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -39px;
+  width: 18px;
+  height: 26px; }
+
+.icon-chevron-left-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -18px -39px;
+  width: 18px;
+  height: 26px; }
+
+.icon-chevron-right-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -36px -39px;
+  width: 18px;
+  height: 26px; }
+
+.icon-chevron-right-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -54px -39px;
+  width: 18px;
+  height: 26px; }
+
+.icon-email {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 39px;
+  height: 39px; }
+
+.icon-inst {
+  background-image: url(../../img/sprite.png);
+  background-position: -39px 0px;
+  width: 36px;
+  height: 36px; }
+
+.icon-insta-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -75px 0px;
+  width: 15px;
+  height: 15px; }
+
+.icon-placeholder {
+  background-image: url(../../img/sprite.png);
+  background-position: -75px -15px;
+  width: 10px;
+  height: 13px; }
