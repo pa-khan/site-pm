@@ -199,12 +199,14 @@ input, .btn, .slick-slide, textarea
 
 	&__logo
 		width: 430px
-		margin-left: auto
-		margin-right: auto
+		margin-left: 162px
 		
 
 	&__contacts
 		text-align: right
+		max-width: 270px
+		width: 100%
+		margin-left: auto
 
 	&__phone
 		font-size: 30px
@@ -224,7 +226,8 @@ input, .btn, .slick-slide, textarea
 			margin-right: 10px
 
 
-
+	
+			
 .bg
 	background-repeat: no-repeat
 	background-position: center top
@@ -440,14 +443,12 @@ input, .btn, .slick-slide, textarea
 			padding-right: 15px
 	
 	&__item
-		padding: 25px
-		background-color: #fff
-		height: 362px
-		position: relative
-		box-shadow: 0 1px 4px #dadada
-		width: calc(25% - 30px)
-		margin-left: 15px
-		margin-right: 15px
+		&-wrap
+			padding: 25px
+			background-color: #fff
+			height: 362px
+			position: relative
+			box-shadow: 0 1px 4px #dadada
 
 	&__img
 		position: absolute
@@ -458,6 +459,8 @@ input, .btn, .slick-slide, textarea
 		background-size: cover
 		background-repeat: no-repeat
 		background-position: center
+		&:hover
+			transform: scale(.95)
 		
 		
 
@@ -509,6 +512,8 @@ input, .btn, .slick-slide, textarea
 		font-size: 14px
 		margin-right: 46px
 		position: relative
+		&:last-of-type
+			margin-right: 0
 		&:after
 			display: inline-block
 			vertical-align: middle
@@ -655,7 +660,10 @@ input, .btn, .slick-slide, textarea
 			&:last-of-type
 				margin-bottom: 0
 
-
+	a
+		border-color: $color-1
+		&:hover
+			border-color: transparent
 
 
 

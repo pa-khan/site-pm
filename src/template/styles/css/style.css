@@ -360,11 +360,13 @@ input, .btn, .slick-slide, textarea {
 
 .panel__logo {
   width: 430px;
-  margin-left: auto;
-  margin-right: auto; }
+  margin-left: 162px; }
 
 .panel__contacts {
-  text-align: right; }
+  text-align: right;
+  max-width: 270px;
+  width: 100%;
+  margin-left: auto; }
 
 .panel__phone {
   font-size: 30px;
@@ -633,17 +635,13 @@ input, .btn, .slick-slide, textarea {
     .certificates__list .slick-slide {
       padding-left: 15px;
       padding-right: 15px; }
-  .certificates__item {
+  .certificates__item-wrap {
     padding: 25px;
     background-color: #fff;
     height: 362px;
     position: relative;
     -webkit-box-shadow: 0 1px 4px #dadada;
-            box-shadow: 0 1px 4px #dadada;
-    width: -webkit-calc(25% - 30px);
-    width: calc(25% - 30px);
-    margin-left: 15px;
-    margin-right: 15px; }
+            box-shadow: 0 1px 4px #dadada; }
   .certificates__img {
     position: absolute;
     top: 25px;
@@ -653,6 +651,10 @@ input, .btn, .slick-slide, textarea {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
+    .certificates__img:hover {
+      -webkit-transform: scale(0.95);
+          -ms-transform: scale(0.95);
+              transform: scale(0.95); }
   .certificates__text {
     border-left: 3px solid #6c6c6c;
     padding-left: 42px; }
@@ -703,6 +705,8 @@ input, .btn, .slick-slide, textarea {
   font-size: 14px;
   margin-right: 46px;
   position: relative; }
+  .breadcrumbs li:last-of-type {
+    margin-right: 0; }
   .breadcrumbs li:after {
     display: inline-block;
     vertical-align: middle;
@@ -861,6 +865,11 @@ input, .btn, .slick-slide, textarea {
   margin-bottom: 5px; }
   .text ul li:last-of-type {
     margin-bottom: 0; }
+
+.text a {
+  border-color: #000; }
+  .text a:hover {
+    border-color: transparent; }
 
 .footer {
   color: #fff;
